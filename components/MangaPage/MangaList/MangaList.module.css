@@ -1,0 +1,43 @@
+.list__container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: 0;
+  padding: 5%;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.list__item {
+  /* display: block; */
+  width: 250px;
+  margin: 10px;
+  background-color: rgb(134, 133, 133);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.manga__photo {
+  width: 100%;
+}
+
+.list__item__text {
+    font-size: 20px;
+    
+}
+
+.list__item__rating{
+  background-color:rgb(79, 151, 3);
+  border-radius: 5px;
+  color: white;
+  display: grid;
+  font-weight: bold;
+  position:relative;
+  justify-content:center;
+  align-items: center;
+  /* text-align: center; */
+  height: 30px;
+  width: 50px;
+  z-index: 10;
+  top: 10%;
+  right:-60%;
+}
